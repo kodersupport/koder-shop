@@ -1,0 +1,51 @@
+================================================
+  DANH SÁCH FILE — KODER SHOP
+================================================
+
+----- WEB (trang giao diện) -----
+
+  public/shop.html     =  WEB SHOP (trang bán hàng cho khách)
+                          Mở bằng:  https://ten-app.onrender.com/
+
+  public/admin.html    =  WEB ADMIN (trang quản lý của bạn)
+                          Mở bằng:  https://ten-app.onrender.com/admin
+
+----- SERVER (backend) -----
+
+  server.js            =  Server Node.js (API + phục vụ 2 trang trên)
+  package.json         =  Cấu hình npm (không sửa)
+
+----- DỮ LIỆU (JSON — admin sửa qua web, lưu GitHub) -----
+
+  data/products.json   =  Sản phẩm + kho (stock)
+  data/coupons.json    =  Mã giảm giá
+  data/notices.json    =  Thông báo popup
+  data/settings.json   =  Zalo, STK ngân hàng
+
+----- KHÁC -----
+
+  README.md            =  Hướng dẫn deploy đầy đủ
+  .env.example         =  Mẫu biến môi trường Render
+  .gitignore           =  Bỏ qua node_modules
+
+================================================
+  CẤU TRÚC KHI UPLOAD LÊN GITHUB (bắt buộc)
+================================================
+
+  koder-shop/
+  ├── server.js
+  ├── package.json
+  ├── README.md
+  ├── FILES.txt
+  ├── .gitignore
+  ├── .env.example
+  ├── data/
+  │   ├── products.json
+  │   ├── coupons.json
+  │   ├── notices.json
+  │   └── settings.json
+  └── public/
+      ├── shop.html      ← WEB SHOP
+      └── admin.html     ← WEB ADMIN
+
+================================================
